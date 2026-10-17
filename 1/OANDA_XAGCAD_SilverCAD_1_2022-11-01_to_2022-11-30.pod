@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_CAD",
+  "granularity": "M1",
+  "chunk_start": "2022-11-01",
+  "chunk_end": "2022-11-30",
+  "parquet_file": "OANDA_XAGCAD_SilverCAD_1_2022-11-01_to_2022-11-30.parquet",
+  "data_file": "OANDA_XAGCAD_SilverCAD_1_2022-11-01_to_2022-11-30.parquet",
+  "row_count": 29713,
+  "first_candle": {
+    "time": 1667260800,
+    "Time": "2022-11-01T00:00:00.000000000Z",
+    "open": 26.08737,
+    "high": 26.0913,
+    "low": 26.076,
+    "close": 26.08926,
+    "volume": 102
+  },
+  "last_candle": {
+    "time": 1669852740,
+    "Time": "2022-11-30T23:59:00.000000000Z",
+    "open": 29.97414,
+    "high": 29.98655,
+    "low": 29.97202,
+    "close": 29.98655,
+    "volume": 57
+  },
+  "csv_file": "OANDA_XAGCAD_SilverCAD_1_2022-11-01_to_2022-11-30.parquet",
+  "csv_row_count": 29713,
+  "csv_first_candle": {
+    "time": 1667260800,
+    "Time": "2022-11-01T00:00:00.000000000Z",
+    "open": 26.08737,
+    "high": 26.0913,
+    "low": 26.076,
+    "close": 26.08926,
+    "volume": 102
+  },
+  "csv_last_candle": {
+    "time": 1669852740,
+    "Time": "2022-11-30T23:59:00.000000000Z",
+    "open": 29.97414,
+    "high": 29.98655,
+    "low": 29.97202,
+    "close": 29.98655,
+    "volume": 57
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T03:03:40.000000000Z",
+  "generated_at": "2026-10-16T03:03:40.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2022-10-31T05:55:00Z",
+        "to": "2022-11-03T17:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-03T17:15:00Z",
+        "to": "2022-11-07T04:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-07T04:35:00Z",
+        "to": "2022-11-10T15:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-10T15:55:00Z",
+        "to": "2022-11-14T03:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-14T03:15:00Z",
+        "to": "2022-11-17T14:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-17T14:35:00Z",
+        "to": "2022-11-21T01:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-21T01:55:00Z",
+        "to": "2022-11-24T13:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-24T13:15:00Z",
+        "to": "2022-11-28T00:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-11-28T00:35:00Z",
+        "to": "2022-12-01T11:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

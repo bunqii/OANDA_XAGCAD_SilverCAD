@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_CAD",
+  "granularity": "M1",
+  "chunk_start": "2010-04-01",
+  "chunk_end": "2010-04-30",
+  "parquet_file": "OANDA_XAGCAD_SilverCAD_1_2010-04-01_to_2010-04-30.parquet",
+  "data_file": "OANDA_XAGCAD_SilverCAD_1_2010-04-01_to_2010-04-30.parquet",
+  "row_count": 23572,
+  "first_candle": {
+    "time": 1270080000,
+    "Time": "2010-04-01T00:00:00.000000000Z",
+    "open": 17.734,
+    "high": 17.735,
+    "low": 17.723,
+    "close": 17.723,
+    "volume": 9
+  },
+  "last_candle": {
+    "time": 1272661200,
+    "Time": "2010-04-30T21:00:00.000000000Z",
+    "open": 18.9845,
+    "high": 18.9845,
+    "low": 18.9845,
+    "close": 18.9845,
+    "volume": 1
+  },
+  "csv_file": "OANDA_XAGCAD_SilverCAD_1_2010-04-01_to_2010-04-30.parquet",
+  "csv_row_count": 23572,
+  "csv_first_candle": {
+    "time": 1270080000,
+    "Time": "2010-04-01T00:00:00.000000000Z",
+    "open": 17.734,
+    "high": 17.735,
+    "low": 17.723,
+    "close": 17.723,
+    "volume": 9
+  },
+  "csv_last_candle": {
+    "time": 1272661200,
+    "Time": "2010-04-30T21:00:00.000000000Z",
+    "open": 18.9845,
+    "high": 18.9845,
+    "low": 18.9845,
+    "close": 18.9845,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T03:03:00.000000000Z",
+  "generated_at": "2026-10-16T03:03:00.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2010-03-31T00:35:00Z",
+        "to": "2010-04-03T11:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-03T11:55:00Z",
+        "to": "2010-04-06T23:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-06T23:15:00Z",
+        "to": "2010-04-10T10:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-10T10:35:00Z",
+        "to": "2010-04-13T21:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-13T21:55:00Z",
+        "to": "2010-04-17T09:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-17T09:15:00Z",
+        "to": "2010-04-20T20:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-20T20:35:00Z",
+        "to": "2010-04-24T07:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-24T07:55:00Z",
+        "to": "2010-04-27T19:15:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2010-04-27T19:15:00Z",
+        "to": "2010-05-01T06:35:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
