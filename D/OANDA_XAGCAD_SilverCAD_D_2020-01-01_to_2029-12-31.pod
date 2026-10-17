@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_CAD",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_XAGCAD_SilverCAD_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_XAGCAD_SilverCAD_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1753,
+  "first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 23.28208,
+    "high": 23.52104,
+    "low": 23.08147,
+    "close": 23.40902,
+    "volume": 13874
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 79.14519,
+    "high": 81.6143,
+    "low": 78.93364,
+    "close": 81.44662,
+    "volume": 413613
+  },
+  "csv_file": "OANDA_XAGCAD_SilverCAD_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1753,
+  "csv_first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 23.28208,
+    "high": 23.52104,
+    "low": 23.08147,
+    "close": 23.40902,
+    "volume": 13874
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 79.14519,
+    "high": 81.6143,
+    "low": 78.93364,
+    "close": 81.44662,
+    "volume": 413613
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T03:04:41.000000000Z",
+  "generated_at": "2026-10-16T03:04:41.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-11-26T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
